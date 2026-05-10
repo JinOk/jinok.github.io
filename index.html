@@ -1,0 +1,280 @@
+---
+layout: default
+title: "Jin Ok Yang — Bioinformatics & Cancer Genomics"
+description: "Principal Research Scientist at the Korea Bioinformation Center (KOBIC), KRIBB. Bioinformatics, cancer genomics, multi-omics integration, and rare-disease variant analysis."
+---
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <span class="hero-eyebrow">Korea Bioinformation Center · KRIBB</span>
+    <h1>Jin Ok Yang, Ph.D.</h1>
+    <p class="hero-subtitle">
+      Principal Research Scientist working at the intersection of
+      <strong>bioinformatics</strong>, <strong>cancer genomics</strong>, and
+      <strong>multi-omics integration</strong> — turning large-scale sequencing
+      data into clinically meaningful biology.
+    </p>
+
+    <div class="hero-meta">
+      <span>📍 Daejeon, Republic of Korea</span>
+      <span class="dot"></span>
+      <span>🧬 KOBIC, KRIBB</span>
+      <span class="dot"></span>
+      <span>🎓 Ph.D., KAIST (Bio &amp; Brain Engineering)</span>
+    </div>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ site.author.scholar }}" target="_blank" rel="noopener">
+        Google Scholar →
+      </a>
+      <a class="btn" href="{{ site.author.kribb }}" target="_blank" rel="noopener">
+        KRIBB Profile
+      </a>
+      <a class="btn" href="mailto:joy@kribb.re.kr">
+        joy@kribb.re.kr
+      </a>
+    </div>
+
+    <div class="stats" aria-label="Citation metrics from Google Scholar">
+      <div class="stat">
+        <div class="stat-num">2,164</div>
+        <div class="stat-label">Citations</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">16</div>
+        <div class="stat-label">h-index</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">22</div>
+        <div class="stat-label">i10-index</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100+</div>
+        <div class="stat-label">Publications</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section-alt">
+  <div class="section-inner">
+    <span class="section-eyebrow">About</span>
+    <h2>Reading genomes, decoding disease.</h2>
+    <div class="about-grid">
+      <div>
+        <p>
+          I am a Principal Research Scientist at the
+          <a href="https://www.kribb.re.kr" target="_blank" rel="noopener">Korea Research Institute of Bioscience and Biotechnology (KRIBB)</a>,
+          based in the Korea Bioinformation Center (KOBIC). My research builds
+          computational frameworks that connect <em>genome sequence</em>,
+          <em>epigenome</em>, and <em>transcriptome</em> data with clinical
+          phenotypes — most recently in colorectal cancer, lung cancer, and
+          rare neurogenetic disorders in Korean populations.
+        </p>
+        <p>
+          Across two decades I have helped build national-scale bio-data
+          infrastructure, from the early HUGO Pan-Asian SNP project to today's
+          population-scale whole-genome and methylome cohorts. I am especially
+          interested in interpretable multi-omics analysis that survives the
+          jump from a discovery cohort to a clinic.
+        </p>
+      </div>
+      <div>
+        <p style="font-weight:600;color:var(--text);margin-bottom:0.6rem;">Research Focus</p>
+        <div class="tag-list">
+          <span class="tag">Cancer Genomics</span>
+          <span class="tag">DNA Methylation</span>
+          <span class="tag">Whole-Genome Sequencing</span>
+          <span class="tag">Structural Variants</span>
+          <span class="tag">Single-cell RNA-seq</span>
+          <span class="tag">Rare-Disease Variants</span>
+          <span class="tag">Multi-omics Integration</span>
+          <span class="tag">Regulomics</span>
+          <span class="tag">Korean Population Genomics</span>
+          <span class="tag">Bio Data Infrastructure</span>
+        </div>
+
+        <p style="font-weight:600;color:var(--text);margin:1.6rem 0 0.6rem;">Recognition</p>
+        <div class="award-card">
+          <div class="award-icon">🏅</div>
+          <div>
+            <div class="award-title">Ministerial Commendation</div>
+            <div class="award-meta">
+              Ministry of Health and Welfare, Republic of Korea (2022)<br>
+              <em>For contributions to healthcare data utilization
+              (보건의료데이터 활용 유공)</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH HIGHLIGHTS ============ -->
+<section id="research">
+  <div class="section-inner">
+    <span class="section-eyebrow">Selected Work</span>
+    <h2>Highlighted publications.</h2>
+    <p style="color:var(--text-muted);max-width:38em;">
+      A selection of papers that span landmark population-genomics consortia,
+      cancer-mechanism discoveries, and the bioinformatics methods I have
+      built for the field.
+    </p>
+
+    <div class="featured-grid">
+      {% assign featured = site.data.publications | where: "featured", true | sort: "year" | reverse %}
+      {% for p in featured %}
+      <div class="featured-card">
+        <div class="featured-year">{{ p.year }}{% if p.citations %} · {{ p.citations }} citations{% endif %}</div>
+        <div class="featured-title">{{ p.title }}</div>
+        <div class="featured-venue">{{ p.venue }}</div>
+        <div class="featured-cite">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section id="publications" class="section-alt">
+  <div class="section-inner">
+    <span class="section-eyebrow">Publications</span>
+    <h2>Full publication list.</h2>
+    <p style="color:var(--text-muted);max-width:42em;">
+      Below is a curated list of representative peer-reviewed work. The full
+      catalogue and live citation counts are maintained on
+      <a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      and the
+      <a href="{{ site.author.kribb }}" target="_blank" rel="noopener">KRIBB OAK repository</a>.
+    </p>
+
+    <div class="pub-tabs" role="tablist">
+      <button class="pub-tab active" data-tab="recent" role="tab">Recent (2024 –)</button>
+      <button class="pub-tab" data-tab="all" role="tab">All</button>
+    </div>
+
+    <!-- Recent -->
+    <div class="pub-tab-panel active" id="tab-recent">
+      <ul class="pub-list">
+      {% assign recent = site.data.publications | where: "recent", true | sort: "year" | reverse %}
+      {% for p in recent %}
+        <li class="pub-item">
+          <div>
+            <div class="pub-year">{{ p.year }}</div>
+            {% if p.citations %}<span class="pub-citations">{{ p.citations }} cites</span>{% endif %}
+          </div>
+          <div>
+            <div class="pub-title">
+              {{ p.title }}
+              {% if p.featured %}<span class="pub-badge">Featured</span>{% endif %}
+            </div>
+            <div class="pub-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            <div class="pub-venue">{{ p.venue }}</div>
+          </div>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <!-- All -->
+    <div class="pub-tab-panel" id="tab-all">
+      <ul class="pub-list">
+      {% assign all = site.data.publications | sort: "year" | reverse %}
+      {% for p in all %}
+        <li class="pub-item">
+          <div>
+            <div class="pub-year">{{ p.year }}</div>
+            {% if p.citations %}<span class="pub-citations">{{ p.citations }} cites</span>{% endif %}
+          </div>
+          <div>
+            <div class="pub-title">
+              {{ p.title }}
+              {% if p.featured %}<span class="pub-badge">Featured</span>{% endif %}
+            </div>
+            <div class="pub-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            <div class="pub-venue">{{ p.venue }}</div>
+          </div>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education">
+  <div class="section-inner">
+    <span class="section-eyebrow">Education</span>
+    <h2>Training.</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">Feb 2026</div>
+        <div class="timeline-title">Ph.D., Bio and Brain Engineering</div>
+        <div class="timeline-sub">Korea Advanced Institute of Science and Technology (KAIST)</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">1998</div>
+        <div class="timeline-title">M.S.</div>
+        <div class="timeline-sub">Chungnam National University</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">1996</div>
+        <div class="timeline-title">B.S.</div>
+        <div class="timeline-sub">Chungnam National University</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section-alt">
+  <div class="section-inner">
+    <span class="section-eyebrow">Contact</span>
+    <h2>Let's collaborate.</h2>
+    <p style="color:var(--text-muted);max-width:42em;">
+      I welcome collaborations on cancer multi-omics, Korean population
+      genomics, methylation biomarkers, and bio data infrastructure.
+      The fastest way to reach me is by email.
+    </p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-label">Email</div>
+        <div class="contact-value"><a href="mailto:joy@kribb.re.kr">joy@kribb.re.kr</a></div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-label">Phone</div>
+        <div class="contact-value">+82-42-879-8550</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-label">Affiliation</div>
+        <div class="contact-value">Korea Bioinformation Center<br>KRIBB, Daejeon</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-label">Online</div>
+        <div class="contact-value">
+          <a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Google Scholar</a><br>
+          <a href="{{ site.author.kribb }}" target="_blank" rel="noopener">KRIBB Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Tab switcher for the publications section.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.pub-tab');
+    if (!btn) return;
+    var key = btn.getAttribute('data-tab');
+    document.querySelectorAll('.pub-tab').forEach(function (t) {
+      t.classList.toggle('active', t === btn);
+    });
+    document.querySelectorAll('.pub-tab-panel').forEach(function (p) {
+      p.classList.toggle('active', p.id === 'tab-' + key);
+    });
+  });
+</script>

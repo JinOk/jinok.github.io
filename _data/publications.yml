@@ -1,0 +1,139 @@
+# Author name appears in lists with markdown **bold** so the template highlights it.
+# `featured: true` puts the paper in the highlighted "Selected" cards.
+# `recent: true` lists the paper in the "Recent (2024–)" tab.
+
+- year: 2025
+  title: "Genetic variations and recurrence in stage III Korean colorectal cancer: insights from tumor-only mutation analysis"
+  authors: "H Jeon, JL Lee, H Shim, S Joe, I Byeon, CW Kim, SB Lim, IJ Park, … **Jin Ok Yang**, et al."
+  venue: "PLOS ONE"
+  recent: true
+
+- year: 2024
+  title: "Comparison of structural variant callers for massive whole-genome sequence data"
+  authors: "S Joe, JL Park, J Kim, S Kim, JH Park, MK Yeo, D Lee, **Jin Ok Yang**, SY Kim"
+  venue: "BMC Genomics"
+  citations: 33
+  recent: true
+  featured: true
+
+- year: 2024
+  title: "Comprehensive RNA-sequencing analysis of colorectal cancer in a Korean cohort"
+  authors: "J Lee, JH Kim, HBK Chu, ST Oh, SB Kang, S Lee, DW Kim, HK Oh, … **Jin Ok Yang**, et al."
+  venue: "Molecules and Cells"
+  citations: 7
+  recent: true
+
+- year: 2024
+  title: "Comprehensive profiling of DNA methylation in Korean patients with colorectal cancer"
+  authors: "H Shim, K Jang, YH Bang, HBK Chu, J Kang, JY Lee, S Cho, HS Lee, … **Jin Ok Yang**, et al."
+  venue: "BMB Reports"
+  citations: 2
+  recent: true
+
+- year: 2024
+  title: "Exploring the DNA methylome of Korean patients with colorectal cancer consolidates the clinical implications of cancer-associated methylation markers"
+  authors: "S Lee, K Lee, JH Park, DW Kim, HK Oh, ST Oh, J Jeon, D Lee, S Joe, … **Jin Ok Yang**, et al."
+  venue: "BMB Reports"
+  citations: 2
+  recent: true
+
+- year: 2023
+  title: "Metastatic prognostic ability of lung cancer stromal cells from a single-cell RNA-seq perspective"
+  authors: "H Moon, J Kim, H Jeon, **Jin Ok Yang**"
+  venue: "bioRxiv"
+
+- year: 2022
+  title: "A database of 5305 healthy Korean individuals reveals genetic and clinical implications for an East Asian population"
+  authors: "J Lee, J Lee, S Jeon, J Lee, I Jang, **Jin Ok Yang**, S Park, B Lee, J Choi, et al."
+  venue: "Experimental & Molecular Medicine"
+  citations: 63
+  featured: true
+
+- year: 2021
+  title: "Reduction of squalene epoxidase by cholesterol accumulation accelerates colorectal cancer progression and metastasis"
+  authors: "SY Jun, AJ Brown, NK Chua, JY Yoon, JJ Lee, **Jin Ok Yang**, IS Jang, et al."
+  venue: "Gastroenterology"
+  citations: 147
+  featured: true
+
+- year: 2021
+  title: "The emerging genetic diversity of hereditary spastic paraplegia in Korean patients"
+  authors: "**Jin Ok Yang**, JY Yoon, DH Sung, S Yun, JJ Lee, SY Jun, D Halder, SJ Jeon, et al."
+  venue: "Genomics"
+  citations: 9
+
+- year: 2021
+  title: "Characteristics of genetic variations associated with Lennox–Gastaut syndrome in Korean families"
+  authors: "**Jin Ok Yang**, MH Choi, JY Yoon, JJ Lee, SO Nam, SY Jun, HH Kwon, S Yun, et al."
+  venue: "Frontiers in Genetics"
+  citations: 16
+
+- year: 2020
+  title: "A novel X-linked variant of IQSEC2 is associated with Lennox–Gastaut syndrome and mild intellectual disability in three generations of a Korean family"
+  authors: "MH Choi, **Jin Ok Yang**, JS Min, JJ Lee, SY Jun, YJ Lee, JY Yoon, SJ Jeon, et al."
+  venue: "Genetic Testing and Molecular Biomarkers"
+  citations: 14
+
+- year: 2019
+  title: "Cep131 overexpression promotes centrosome amplification and colon cancer progression by regulating Plk4 stability"
+  authors: "DH Kim, JS Ahn, HJ Han, HM Kim, J Hwang, KH Lee, H Cha-Molstad, … **Jin Ok Yang**, et al."
+  venue: "Cell Death & Disease"
+  citations: 39
+
+- year: 2016
+  title: "Programming of plant leaf senescence with temporal and inter-organellar coordination of transcriptome in Arabidopsis"
+  authors: "HR Woo, HJ Koo, J Kim, H Jeong, **Jin Ok Yang**, IH Lee, JH Jun, SH Choi, et al."
+  venue: "Plant Physiology"
+  citations: 176
+  featured: true
+
+- year: 2015
+  title: "Global transcription network incorporating distal regulator binding reveals selective cooperation of cancer drivers and risk genes"
+  authors: "K Kim, W Yang, KS Lee, H Bang, K Jang, SC Kim, **Jin Ok Yang**, S Park, et al."
+  venue: "Nucleic Acids Research"
+  citations: 7
+
+- year: 2014
+  title: "Identification of ethnically specific genetic variations in pan-Asian ethnos"
+  authors: "**Jin Ok Yang**, S Hwang, WY Kim, SJ Park, SC Kim, K Park, B Lee"
+  venue: "Genomics & Informatics"
+  citations: 8
+
+- year: 2014
+  title: "miRseqViewer: multi-panel visualization of sequence, structure and expression for analysis of microRNA sequencing data"
+  authors: "I Jang, H Chang, Y Jun, S Park, **Jin Ok Yang**, B Lee, W Kim, VN Kim, S Lee"
+  venue: "Bioinformatics"
+  citations: 3
+
+- year: 2013
+  title: "A high-dimensional, deep-sequencing study of lung adenocarcinoma in female never-smokers"
+  authors: "SC Kim, Y Jung, J Park, S Cho, C Seo, J Kim, P Kim, J Park, J Seo, J Kim, … **Jin Ok Yang**, et al."
+  venue: "PLOS ONE"
+  citations: 86
+
+- year: 2013
+  title: "Inference of kinship coefficients from Korean SNP genotyping data"
+  authors: "SJ Park, **Jin Ok Yang**, SC Kim, J Kwon, S Lee, B Lee"
+  venue: "BMB Reports"
+  citations: 4
+
+- year: 2011
+  title: "Accurate quantification of transcriptome from RNA-Seq data by effective length normalization"
+  authors: "S Lee, CH Seo, B Lim, **Jin Ok Yang**, J Oh, M Kim, S Lee, B Lee, C Kang, S Lee"
+  venue: "Nucleic Acids Research"
+  citations: 137
+  featured: true
+
+- year: 2009
+  title: "Mapping human genetic diversity in Asia"
+  authors: "HUGO Pan-Asian SNP Consortium · MA Abdulla, I Ahmed, … **Jin Ok Yang**, et al."
+  venue: "Science"
+  citations: 726
+  featured: true
+
+- year: 2005
+  title: "Identification of gastric cancer–related genes using a cDNA microarray containing novel expressed sequence tags expressed in gastric cancer cells"
+  authors: "JM Kim, HY Sohn, SY Yoon, JH Oh, **Jin Ok Yang**, et al."
+  venue: "Clinical Cancer Research"
+  citations: 239
+  featured: true

@@ -1,0 +1,32 @@
+title: Jin Ok Yang
+tagline: Principal Research Scientist · KOBIC, KRIBB
+description: >-
+  Principal Research Scientist at the Korea Bioinformation Center (KOBIC), KRIBB.
+  Bioinformatics, cancer genomics, multi-omics integration, and rare-disease variant analysis.
+url: "https://jinok.github.io"
+baseurl: ""
+
+author:
+  name: Jin Ok Yang
+  email: joy@kribb.re.kr
+  scholar: https://scholar.google.com/citations?user=U9QjPdMAAAAJ&hl=en
+  kribb: https://oak.kribb.re.kr/researcher-profile?ep=265
+  github: https://github.com/JinOk
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
+  - .claude/
+  - node_modules/
+
+plugins:
+  - jekyll-seo-tag
