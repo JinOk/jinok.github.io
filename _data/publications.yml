@@ -1,139 +1,268 @@
+# Source of truth: KRIBB OAK researcher profile (ep=265), Journal Articles tab.
 # Author name appears in lists with markdown **bold** so the template highlights it.
 # `featured: true` puts the paper in the highlighted "Selected" cards.
 # `recent: true` lists the paper in the "Recent (2024–)" tab.
 
 - year: 2025
-  title: "Genetic variations and recurrence in stage III Korean colorectal cancer: insights from tumor-only mutation analysis"
-  authors: "H Jeon, JL Lee, H Shim, S Joe, I Byeon, CW Kim, SB Lim, IJ Park, … **Jin Ok Yang**, et al."
-  venue: "PLOS ONE"
+  title: "Prevalence of genetic variants causing mendelian stroke among 15,548 Koreans without neurological disorders"
+  authors: "**Yang JO**, Lee SH, Kim HJ, Kang CH, Kim JG, Choi JC"
+  venue: "Journal of Stroke, 27(1):136–139"
   recent: true
 
-- year: 2024
-  title: "Comparison of structural variant callers for massive whole-genome sequence data"
-  authors: "S Joe, JL Park, J Kim, S Kim, JH Park, MK Yeo, D Lee, **Jin Ok Yang**, SY Kim"
-  venue: "BMC Genomics"
-  citations: 33
+- year: 2025
+  title: "Genetic variations and recurrence in stage III Korean colorectal cancer: insights from tumor-only mutation analysis"
+  authors: "Jeon H, Lee JL, Shim H, Joe S, Byeon I, Kim CW, Lim SB, Park IJ, Yoon YS, Chu HBK, … **Yang JO**, et al."
+  venue: "PLOS ONE, 20(5):e0323302"
+  recent: true
+
+- year: 2025
+  title: "Highly accurate Korean draft genomes reveal structural variation highlighting human telomere evolution"
+  authors: "Kim J, Park JL, **Yang JO**, Kim S, Joe S, Park G, Hwang T, Cho MJ, Lee S, Lee JE, et al."
+  venue: "Nucleic Acids Research, 53(1):gkae1294"
   recent: true
   featured: true
 
 - year: 2024
-  title: "Comprehensive RNA-sequencing analysis of colorectal cancer in a Korean cohort"
-  authors: "J Lee, JH Kim, HBK Chu, ST Oh, SB Kang, S Lee, DW Kim, HK Oh, … **Jin Ok Yang**, et al."
-  venue: "Molecules and Cells"
-  citations: 7
+  title: "KoNA: Korean Nucleotide Archive — a new data repository for nucleotide sequence data"
+  authors: "Ko G, Lee JH, Sim YM, Song W, Yoon BH, Byeon I, Lee BH, Kim SO, Choi J, Jang I, … **Yang JO**, et al."
+  venue: "Genomics, Proteomics & Bioinformatics, 22:qzae017"
   recent: true
+  featured: true
 
 - year: 2024
   title: "Comprehensive profiling of DNA methylation in Korean patients with colorectal cancer"
-  authors: "H Shim, K Jang, YH Bang, HBK Chu, J Kang, JY Lee, S Cho, HS Lee, … **Jin Ok Yang**, et al."
-  venue: "BMB Reports"
+  authors: "Shim H, Jang K, Bang YH, Chu HBK, Kang J, Lee JY, Cho S, Lee HS, Jeon J, Hwang T, … **Yang JO**, et al."
+  venue: "BMB Reports, 57(2):110–115"
   citations: 2
   recent: true
 
 - year: 2024
   title: "Exploring the DNA methylome of Korean patients with colorectal cancer consolidates the clinical implications of cancer-associated methylation markers"
-  authors: "S Lee, K Lee, JH Park, DW Kim, HK Oh, ST Oh, J Jeon, D Lee, S Joe, … **Jin Ok Yang**, et al."
-  venue: "BMB Reports"
+  authors: "Lee S, Lee KY, Park JH, Kim DW, Oh HK, Oh ST, Jeon J, Lee D, Joe S, Chu HBK, … **Yang JO**, et al."
+  venue: "BMB Reports, 57(3):161–166"
   citations: 2
   recent: true
 
+- year: 2024
+  title: "KTED: a comprehensive web-based database for transposable elements in the Korean genome"
+  authors: "Lee JO, Lee S, Lee D, Hwang T, Joe S, **Yang JO**, Jeong J, Ohn JH, Kim JH"
+  venue: "Bioinformatics Advances, 4(1):vbae179"
+  recent: true
+
+- year: 2024
+  title: "Comprehensive RNA-sequencing analysis of colorectal cancer in a Korean cohort"
+  authors: "Lee J, Kim JH, Chu HBK, Oh ST, Kang SB, Lee S, Kim DW, Oh HK, Park JH, Kim J, … **Yang JO**, et al."
+  venue: "Molecules and Cells, 47(3):100033"
+  citations: 7
+  recent: true
+
+- year: 2024
+  title: "Comparison of structural variant callers for massive whole-genome sequence data"
+  authors: "Joe S, Park JL, Kim J, Kim S, Park JH, Yeo MK, Lee D, **Yang JO**, Kim SY"
+  venue: "BMC Genomics, 25:318"
+  citations: 33
+  recent: true
+  featured: true
+
 - year: 2023
-  title: "Metastatic prognostic ability of lung cancer stromal cells from a single-cell RNA-seq perspective"
-  authors: "H Moon, J Kim, H Jeon, **Jin Ok Yang**"
-  venue: "bioRxiv"
+  title: "MHC II immunogenicity shapes the neoepitope landscape in human tumors"
+  authors: "Kim JY, Cha H, Kim K, Sung C, An J, Bang H, Kim H, **Yang JO**, Chang S, Shin I, et al."
+  venue: "Nature Genetics, 55(2):221–231"
+  featured: true
+
+- year: 2023
+  title: "CanISO: a database of genomic and transcriptomic variations in domestic dog (Canis lupus familiaris)"
+  authors: "Yang IS, Jang I, **Yang JO**, Choi J, Kim MS, Kim KK, Seung BJ, Cheong JH, Sur JH, Nam H, et al."
+  venue: "BMC Genomics, 24:613"
 
 - year: 2022
-  title: "A database of 5305 healthy Korean individuals reveals genetic and clinical implications for an East Asian population"
-  authors: "J Lee, J Lee, S Jeon, J Lee, I Jang, **Jin Ok Yang**, S Park, B Lee, J Choi, et al."
-  venue: "Experimental & Molecular Medicine"
+  title: "A database of 5,305 healthy Korean individuals reveals genetic and clinical implications for an East Asian population"
+  authors: "Lee J, Lee J, Jeon S, Lee J, Jang I, **Yang JO**, Park S, Lee B, Choi J, Choi BO, et al."
+  venue: "Experimental & Molecular Medicine, 54(11):1862–1871"
   citations: 63
   featured: true
 
 - year: 2021
   title: "Reduction of squalene epoxidase by cholesterol accumulation accelerates colorectal cancer progression and metastasis"
-  authors: "SY Jun, AJ Brown, NK Chua, JY Yoon, JJ Lee, **Jin Ok Yang**, IS Jang, et al."
-  venue: "Gastroenterology"
+  authors: "Jun SY, Brown AJ, Chua NK, Yoon JY, Lee JJ, **Yang JO**, Jang IS, Jeon SJ, Choi TI, Kim CH, et al."
+  venue: "Gastroenterology, 160(4):1194–1207"
   citations: 147
   featured: true
 
 - year: 2021
-  title: "The emerging genetic diversity of hereditary spastic paraplegia in Korean patients"
-  authors: "**Jin Ok Yang**, JY Yoon, DH Sung, S Yun, JJ Lee, SY Jun, D Halder, SJ Jeon, et al."
-  venue: "Genomics"
-  citations: 9
+  title: "Characteristics of genetic variations associated with Lennox–Gastaut syndrome in Korean families"
+  authors: "**Yang JO**, Choi MH, Yoon JY, Lee JJ, Nam SO, Jun SY, Kwon HH, Yun S, Jeon SJ, Byeon I, et al."
+  venue: "Frontiers in Genetics, 11:590924"
+  citations: 16
 
 - year: 2021
-  title: "Characteristics of genetic variations associated with Lennox–Gastaut syndrome in Korean families"
-  authors: "**Jin Ok Yang**, MH Choi, JY Yoon, JJ Lee, SO Nam, SY Jun, HH Kwon, S Yun, et al."
-  venue: "Frontiers in Genetics"
-  citations: 16
+  title: "The emerging genetic diversity of hereditary spastic paraplegia in Korean patients"
+  authors: "**Yang JO**, Yoon JY, Sung DH, Yun S, Lee JJ, Jun SY, Halder D, Jeon SJ, Woo E, Seok JM, et al."
+  venue: "Genomics, 113(6):4136–4148"
+  citations: 9
 
 - year: 2020
   title: "A novel X-linked variant of IQSEC2 is associated with Lennox–Gastaut syndrome and mild intellectual disability in three generations of a Korean family"
-  authors: "MH Choi, **Jin Ok Yang**, JS Min, JJ Lee, SY Jun, YJ Lee, JY Yoon, SJ Jeon, et al."
-  venue: "Genetic Testing and Molecular Biomarkers"
+  authors: "Choi MH, **Yang JO**, Min JS, Lee JJ, Jun SY, Lee YJ, Yoon JY, Jeon SJ, Byeon I, Kang JW, et al."
+  venue: "Genetic Testing and Molecular Biomarkers, 24(1):54–58"
   citations: 14
 
 - year: 2019
   title: "Cep131 overexpression promotes centrosome amplification and colon cancer progression by regulating Plk4 stability"
-  authors: "DH Kim, JS Ahn, HJ Han, HM Kim, J Hwang, KH Lee, H Cha-Molstad, … **Jin Ok Yang**, et al."
-  venue: "Cell Death & Disease"
+  authors: "Kim DH, Ahn JS, Han HJ, Kim HM, Hwang J, Lee KH, Cha H, Ryoo IJ, Jang JH, Ko SK, … **Yang JO**, et al."
+  venue: "Cell Death & Disease, 10(8):570"
   citations: 39
 
 - year: 2016
   title: "Programming of plant leaf senescence with temporal and inter-organellar coordination of transcriptome in Arabidopsis"
-  authors: "HR Woo, HJ Koo, J Kim, H Jeong, **Jin Ok Yang**, IH Lee, JH Jun, SH Choi, et al."
-  venue: "Plant Physiology"
+  authors: "Woo HR, Koo HJ, Kim J, Jeong H, **Yang JO**, Lee IH, Jun JH, Choi SH, Park SJ, Kang B, et al."
+  venue: "Plant Physiology, 171(1):452–467"
   citations: 176
   featured: true
 
 - year: 2015
+  title: "miRseqViewer: multi-panel visualization of sequence, structure and expression for analysis of microRNA sequencing data"
+  authors: "Jang I, Chang H, Jun Y, Park S, **Yang JO**, Lee B, Kim W, Kim VN, Lee S"
+  venue: "Bioinformatics, 31(4):596–598"
+  citations: 3
+
+- year: 2015
   title: "Global transcription network incorporating distal regulator binding reveals selective cooperation of cancer drivers and risk genes"
-  authors: "K Kim, W Yang, KS Lee, H Bang, K Jang, SC Kim, **Jin Ok Yang**, S Park, et al."
-  venue: "Nucleic Acids Research"
+  authors: "Kim K, Yang W, Lee DS, Bang H, Jang K, Kim SC, **Yang JO**, Park S, Park K, Choi JK"
+  venue: "Nucleic Acids Research, 43(12):5716–5729"
   citations: 7
 
 - year: 2014
   title: "Identification of ethnically specific genetic variations in pan-Asian ethnos"
-  authors: "**Jin Ok Yang**, S Hwang, WY Kim, SJ Park, SC Kim, K Park, B Lee"
-  venue: "Genomics & Informatics"
+  authors: "**Yang JO**, Hwang S, Kim WY, Park S, Kim SC, Park K, Lee B, HUGO Pan-Asian SNP Consortium"
+  venue: "Genomics & Informatics, 12(1):42–47"
   citations: 8
-
-- year: 2014
-  title: "miRseqViewer: multi-panel visualization of sequence, structure and expression for analysis of microRNA sequencing data"
-  authors: "I Jang, H Chang, Y Jun, S Park, **Jin Ok Yang**, B Lee, W Kim, VN Kim, S Lee"
-  venue: "Bioinformatics"
-  citations: 3
-
-- year: 2013
-  title: "A high-dimensional, deep-sequencing study of lung adenocarcinoma in female never-smokers"
-  authors: "SC Kim, Y Jung, J Park, S Cho, C Seo, J Kim, P Kim, J Park, J Seo, J Kim, … **Jin Ok Yang**, et al."
-  venue: "PLOS ONE"
-  citations: 86
 
 - year: 2013
   title: "Inference of kinship coefficients from Korean SNP genotyping data"
-  authors: "SJ Park, **Jin Ok Yang**, SC Kim, J Kwon, S Lee, B Lee"
-  venue: "BMB Reports"
+  authors: "Park S, **Yang JO**, Kim SC, Kwon J, Lee S, Lee B"
+  venue: "BMB Reports, 46(6):305–309"
   citations: 4
+
+- year: 2013
+  title: "A high-dimensional, deep-sequencing study of lung adenocarcinoma in female never-smokers"
+  authors: "Kim SC, Jung Y, Park J, Cho S, Seo C, Kim J, Kim P, Park J, Seo J, Kim J, … **Yang JO**, et al."
+  venue: "PLOS ONE, 8(2):e55596"
+  citations: 86
+
+- year: 2012
+  title: "Genetic dating indicates that the Asian–Papuan admixture through Eastern Indonesia corresponds to the Austronesian expansion"
+  authors: "Xu S, Pugach I, Stoneking M, Kayser M, Jin L, … **Yang JO**, et al. (HUGO Pan-Asian SNP Consortium)"
+  venue: "Proceedings of the National Academy of Sciences USA, 109(12):4574–4579"
+  featured: true
+
+- year: 2011
+  title: "Population genetic structure of peninsular Malaysia Malay sub-ethnic groups"
+  authors: "Hatin WI, Nur-Shafawati AR, Zahri MK, Xu S, Jin L, Tan SG, Rizman-Idid M, Zilfalil BA, … **Yang JO**, et al."
+  venue: "PLOS ONE, 6(4):e18312"
+
+- year: 2011
+  title: "PanSNPdb: the Pan-Asian SNP genotyping database"
+  authors: "Ngamphiw C, Assawamakin A, Xu S, Shaw PJ, **Yang JO**, Ghang H, Bhak J, Liu E, Tongsima S, HUGO Pan-Asian SNP Consortium, et al."
+  venue: "PLOS ONE, 6(6):e21451"
+
+- year: 2011
+  title: "VnD: a structure-centric database of disease-related SNPs and drugs"
+  authors: "**Yang JO**, Oh SH, Go KH, Park S, Kim WY, Lee B, Lee S"
+  venue: "Nucleic Acids Research, 39(Database issue):D939–D944"
 
 - year: 2011
   title: "Accurate quantification of transcriptome from RNA-Seq data by effective length normalization"
-  authors: "S Lee, CH Seo, B Lim, **Jin Ok Yang**, J Oh, M Kim, S Lee, B Lee, C Kang, S Lee"
-  venue: "Nucleic Acids Research"
+  authors: "Lee S, Seo CH, Lim B, **Yang JO**, Oh J, Kim M, Lee S, Lee B, Kang C, Lee S"
+  venue: "Nucleic Acids Research, 39(2):e9"
   citations: 137
   featured: true
 
+- year: 2011
+  title: "Identification of close relatives in the HUGO Pan-Asian SNP database"
+  authors: "**Yang X**, Xu S, Abdulla MA, Ahmed I, Assawamakin A, Park JH, … (HUGO Pan-Asian SNP Consortium incl. **Yang JO**)"
+  venue: "PLOS ONE, 6(12):e29502"
+
+- year: 2010
+  title: "Genetic evidence supports linguistic affinity of Mlabri — a hunter-gatherer group in Thailand"
+  authors: "Xu S, Kangwanpong D, Seielstad M, Srikummool M, Kampuansai J, Jin L, HUGO Pan-Asian SNP Consortium (incl. **Yang JO**)"
+  venue: "BMC Genetics, 11:18"
+
+- year: 2009
+  title: "ssSNPTarget: genome-wide splice-site single nucleotide polymorphism database"
+  authors: "**Yang JO**, Kim WY, Park JH"
+  venue: "Human Mutation, 30(12):E1010–E1020"
+
+- year: 2009
+  title: "Generation of expression clone set for functional proteomics of human gastric and liver cancers"
+  authors: "Oh NS, Park JS, Jeon YJ, Oh JH, Jeong SY, **Yang JO**, Park YW, Yoo HS, Kim NS"
+  venue: "Experimental Biology and Medicine, 234(10):1220–1229"
+
 - year: 2009
   title: "Mapping human genetic diversity in Asia"
-  authors: "HUGO Pan-Asian SNP Consortium · MA Abdulla, I Ahmed, … **Jin Ok Yang**, et al."
-  venue: "Science"
+  authors: "HUGO Pan-Asian SNP Consortium · Abdulla MA, Ahmed I, Assawamakin A, Bhak J, Brahmachari SK, Calacal GC, Ghang H, Jin L, Jung J, Kim HL, … **Yang JO**, et al."
+  venue: "Science, 326(5959):1541–1545"
   citations: 726
   featured: true
 
+- year: 2009
+  title: "PDbase: a database of Parkinson's-disease-related genes and genetic variation using substantia nigra ESTs"
+  authors: "**Yang JO**, Kim WY, Jeong SY, Oh JH, Cho SW, Park JH, Kim NS"
+  venue: "BMC Genomics, 10(Suppl 3):S32"
+
+- year: 2008
+  title: "An integrated database-pipeline system for studying single-nucleotide polymorphisms and diseases"
+  authors: "**Yang JO**, Hwang S, Oh JS, Park JH, Sohn TK"
+  venue: "BMC Bioinformatics, 9(Suppl 12):S19"
+
+- year: 2007
+  title: "GS2PATH: a web-based integrated analysis tool for finding functional relationships using gene ontology and biochemical pathway data"
+  authors: "**Yang JO**, Park C, Lee B, Kim S, Bhak J, Woo HG"
+  venue: "Bioinformation, 2(5):194–196"
+
+- year: 2006
+  title: "Identification of intrahepatic cholangiocarcinoma related genes by comparison with normal liver tissues using expressed sequence tags"
+  authors: "Wang AG, Yoon SY, Oh JH, Jeon YJ, Kim M, Kim JM, Byun SS, **Yang JO**, Kim JH, Kim DG, et al."
+  venue: "Biochemical and Biophysical Research Communications, 345(3):1022–1032"
+
+- year: 2006
+  title: "Cloning of NotI-linked DNA detected by restriction landmark genomic scanning of human genome"
+  authors: "Kim JH, Lee KT, Kim HC, **Yang JO**, Hahn Y, Kim S, Kim SY, Yoo HS, Kim YS"
+  venue: "Genomics & Informatics, 4(1):1–10"
+
 - year: 2005
-  title: "Identification of gastric cancer–related genes using a cDNA microarray containing novel expressed sequence tags expressed in gastric cancer cells"
-  authors: "JM Kim, HY Sohn, SY Yoon, JH Oh, **Jin Ok Yang**, et al."
-  venue: "Clinical Cancer Research"
+  title: "Identification of gastric cancer-related genes using a cDNA microarray containing novel expressed sequence tags expressed in gastric cancer cells"
+  authors: "Kim JM, Sohn HY, Yoon SY, Oh JH, **Yang JO**, Kim JH, Song KS, Rho SM, Yoo HS, Kim YS, et al."
+  venue: "Clinical Cancer Research, 11(2):473–482"
   citations: 239
   featured: true
+
+- year: 2005
+  title: "WIGED: web-based data integration system for analysis of gene expression in disease"
+  authors: "**Yang JO**, Yu U, Kim SS"
+  venue: "Key Engineering Materials, 277:41–44"
+
+- year: 2005
+  title: "Transcriptome analysis of human gastric cancer"
+  authors: "Oh JH, **Yang JO**, Hahn Y, Kim M, Byun SS, Jeon JJ, Kim JM, Song KS, Noh SM, Kim S, et al."
+  venue: "Mammalian Genome, 16:942–945"
+
+- year: 2005
+  title: "KBUD: the Korea Brain Unigene Database"
+  authors: "Jeon YJ, Oh JH, **Yang JO**, Kim NS"
+  venue: "Genomics & Informatics, 3(3):86–93"
+
+- year: 2004
+  title: "SRS를 이용한 바이오데이터베이스의 통합 검색법 (Integrated search of bio-databases using SRS)"
+  authors: "Lee SH, Kang SS, Kim HC, **Yang JO**, Lee B, Choi JG, Kim SS"
+  venue: "Molecular & Cellular Biology News, 16(1):14–19"
+
+- year: 2002
+  title: "Design and implementation of a web-based search engine for single-nucleotide-polymorphism data"
+  authors: "**Yang JO**, Kim SS"
+  venue: "Journal of KISS, 29(1):160–162"
+
+- year: 2001
+  title: "The design and implementation of a web-based search engine for GenBank patent data"
+  authors: "**Yang JO**, Kim SS"
+  venue: "Journal of KISS, 28(2):43–45"
