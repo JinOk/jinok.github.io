@@ -209,6 +209,84 @@ section {
   .about-grid { grid-template-columns: 1fr; gap: 1.5rem; }
 }
 
+/* ===== About stats ===== */
+.about-stats {
+  list-style: none;
+  padding: 0; margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+.about-stats li {
+  display: flex; align-items: baseline; gap: 0.7rem;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-soft);
+}
+.about-stats li:last-child { border-bottom: none; }
+.about-stats span {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.25rem; font-weight: 600;
+  color: var(--text);
+  min-width: 3rem;
+}
+
+/* ===== Research Themes ===== */
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+.theme-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.6rem;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 1.2rem;
+  align-items: start;
+  transition: all .2s;
+}
+.theme-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 12px 28px -14px rgba(13,148,136,0.22);
+  transform: translateY(-2px);
+}
+.theme-icon {
+  width: 72px; height: 72px;
+  display: block;
+}
+.theme-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+.theme-card p {
+  font-size: 0.93rem;
+  color: var(--text-muted);
+  margin: 0 0 0.75rem;
+  line-height: 1.55;
+}
+.theme-papers {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--accent-dark);
+  letter-spacing: 0.01em;
+  border-top: 1px dashed var(--border);
+  padding-top: 0.6rem;
+}
+.theme-card-wide { grid-column: 1 / -1; }
+@media (max-width: 760px) {
+  .themes-grid { grid-template-columns: 1fr; }
+  .theme-card-wide { grid-column: auto; }
+  .theme-card { grid-template-columns: 56px 1fr; padding: 1.3rem; }
+  .theme-icon { width: 56px; height: 56px; }
+}
+
 /* ===== Education timeline ===== */
 .timeline {
   border-left: 2px solid var(--border);

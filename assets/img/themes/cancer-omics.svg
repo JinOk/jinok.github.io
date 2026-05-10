@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Cancer Multi-Omics">
+  <defs>
+    <linearGradient id="coBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="100%" stop-color="#f0fdfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="20" fill="url(#coBg)"/>
+  <!-- Concentric rings = layered omics -->
+  <g fill="none" stroke-linecap="round">
+    <circle cx="48" cy="48" r="30" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3" opacity="0.55"/>
+    <circle cx="48" cy="48" r="22" stroke="#0d9488" stroke-width="2" stroke-dasharray="3 3" opacity="0.7"/>
+    <circle cx="48" cy="48" r="14" stroke="#0f766e" stroke-width="2.5"/>
+  </g>
+  <!-- Inner cell/nucleus -->
+  <circle cx="48" cy="48" r="8" fill="#0d9488" opacity="0.85"/>
+  <!-- Methylation marks -->
+  <g fill="#0f766e">
+    <circle cx="48" cy="40" r="1.6"/>
+    <circle cx="52" cy="44" r="1.6"/>
+    <circle cx="44" cy="52" r="1.6"/>
+    <circle cx="50" cy="54" r="1.6"/>
+  </g>
+  <!-- Layer labels (very small dots indicating G/M/T/E) -->
+  <g fill="#0f766e">
+    <circle cx="48" cy="18" r="3"/>
+    <circle cx="78" cy="48" r="3"/>
+    <circle cx="48" cy="78" r="3"/>
+    <circle cx="18" cy="48" r="3"/>
+  </g>
+</svg>

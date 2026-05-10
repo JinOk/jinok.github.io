@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Korean Population Genomics">
+  <defs>
+    <linearGradient id="kgBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="100%" stop-color="#f0fdfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="20" fill="url(#kgBg)"/>
+  <!-- Population dots forming a cluster -->
+  <g fill="#0d9488" opacity="0.35">
+    <circle cx="22" cy="24" r="2"/>
+    <circle cx="30" cy="20" r="2.5"/>
+    <circle cx="38" cy="26" r="2"/>
+    <circle cx="68" cy="22" r="2.2"/>
+    <circle cx="76" cy="28" r="2"/>
+    <circle cx="20" cy="72" r="2"/>
+    <circle cx="28" cy="76" r="2.4"/>
+    <circle cx="68" cy="74" r="2.2"/>
+    <circle cx="76" cy="68" r="2"/>
+  </g>
+  <!-- DNA double helix -->
+  <g stroke="#0f766e" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M40 20 Q56 32 40 44 Q56 56 40 68 Q56 80 40 92" transform="translate(-8 -8)"/>
+    <path d="M56 20 Q40 32 56 44 Q40 56 56 68 Q40 80 56 92" transform="translate(-8 -8)"/>
+  </g>
+  <!-- Base-pair rungs -->
+  <g stroke="#0d9488" stroke-width="2" stroke-linecap="round">
+    <line x1="34" y1="20" x2="50" y2="20"/>
+    <line x1="32" y1="32" x2="52" y2="32"/>
+    <line x1="34" y1="44" x2="50" y2="44"/>
+    <line x1="32" y1="56" x2="52" y2="56"/>
+    <line x1="34" y1="68" x2="50" y2="68"/>
+  </g>
+</svg>
